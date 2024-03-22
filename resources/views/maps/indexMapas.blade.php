@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu principal</title>
+    <title>Mapas interactivos</title>
 </head>
 <body>
     <header>
         @include('navbar.menuNavBar')
     </header>
-    <h1>Hola , INICIO</h1>
-    <p>Que tal?, esta es la ventana de Inicio</p>
-    <span>Bienvenidos a mi pagina web</span>
+    <h1>Hola MAPAS INTERACTIVOS</h1>
+    <p>Qué tal?, esta es la ventana de mapas interativos</p>
+    <span>Bienvenidos a mi página web</span>
 
     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic incidunt numquam voluptatibus. Molestiae voluptates harum accusantium. Accusantium ipsam dolorem ut consectetur quam, id, nesciunt autem et a, debitis accusamus!</span>
     <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus debitis mollitia eaque vitae, veritatis cupiditate ad quibusdam ullam nihil nulla tempora saepe magnam voluptatibus? Facere at excepturi est ea repudiandae?</span>
