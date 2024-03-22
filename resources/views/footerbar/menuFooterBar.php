@@ -6,7 +6,7 @@
             <img src="/ruta/al/logo.png" alt="Logo del portal" style="height: 100px;"> <!-- LOGO -->
         </div>
         
-        <!-- Div del texto "Lorem ipsum " -->
+        <!-- Div del texto "Lorem ipsum  owo" -->
         <div>
             <p style="margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non explicabo facere excepturi perspiciatis soluta ab neque numquam possimus sapiente voluptates rerum, impedit ipsam unde, natus magnam laudantium labore consequuntur. Voluptates!</p> <!-- TEXTO -->
         </div>
