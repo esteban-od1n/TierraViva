@@ -3,7 +3,7 @@
     <div style="display: flex; align-items: center; justify-content: space-between;">
         <!-- Div del logo -->
         <div>
-            <img src="/ruta/al/logo.png" alt="Logo del portal" style="height: 100px;"> <!-- LOGO -->
+            <img src="resources/img/logos/Logo.png" alt="Logo del portal" style="height: 100px;"> <!-- LOGO -->
         </div>
         
         <!-- Div del texto "Lorem ipsum  " -->

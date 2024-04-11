@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--favicon-->
-    <link rel="shortcut icon" href="/resources/img/logos/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--CSS file-->
+    <link rel="stylesheet" href="css/style.css">
     <title>Tierra Viva</title>
 </head>
 <body>
-    <header>
+    <div class="preload" data-preaload> 
+        <div class="circle"></div>
+        <p class="text">Tierra Viva</p>
+    </div>
+    <!--header-->
+    <header class="header" data-header>
         @include('navbar.menuNavBar')
     </header>
-    <h1>Hola , INICIO</h1>
-    <p>Que tal?, esta es la ventana de Inicio</p>
-    <span>Bienvenidos a mi pagina web</span>
+    
+    <main>
+        <article>
+            <!--slider-->
+            @include('slider.slider')
+             
+        </article>
+    </main>
 
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic incidunt numquam voluptatibus. Molestiae voluptates harum accusantium. Accusantium ipsam dolorem ut consectetur quam, id, nesciunt autem et a, debitis accusamus!</span>
-    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus debitis mollitia eaque vitae, veritatis cupiditate ad quibusdam ullam nihil nulla tempora saepe magnam voluptatibus? Facere at excepturi est ea repudiandae?</span>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum numquam, excepturi, quaerat at, cupiditate debitis id voluptas esse ex fugiat! Veritatis laboriosam nobis amet facere? Necessitatibus reprehenderit possimus accusamus.</span>
-
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est</h1>
-    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus vitae obcaecati maiores voluptatem, nam aut repellendus quae voluptatibus sapiente asperiores corporis consectetur explicabo incidunt aspernatur molestias quaerat quisquam aliquam.</span>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
         @include('footerbar.menuFooterBar')
     </footer>
+
+    <!--script-->
+    <script src="js/script.js"></script>
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 </body>
 </html>
