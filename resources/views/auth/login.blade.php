@@ -1,53 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicia Sesion</title>
+    <title>Iniciar sesión</title>
     <style>
-        /* Estilos CSS aquí */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f2f2f2;
         }
-        .login-container {
-            width: 300px;
-            margin: 100px auto;
+
+        .container {
+            display: flex;
+            max-width: 90%;
+            width: 100%;
+            max-height: 90%;
+            height: 100%;
             background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .login-container h2 {
-            text-align: center;
+
+        .left-section {
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centrar verticalmente */
+        }
+
+        .right-section {
+            flex: 1;
+            background-image: url('/img/imagenes_extras/login.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+        }
+
+        .login-form {
+            padding: 20px;
+        }
+
+        .login-form h2 {
             margin-bottom: 20px;
         }
-        .login-form input[type="text"],
-        .login-form input[type="password"],
+
+        .login-form input[type="email"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
         .login-form button {
             width: 100%;
-            margin-bottom: 10px;
             padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            box-sizing: border-box;
-        }
-        .login-form button {
             background-color: #007bff;
             color: #fff;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
+        }
+
+        .login-form a {
+            display: block;
+            text-align: right;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #007bff;
         }
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form class="login-form" action="" method="POST">
-            @csrf
-            <input type="text" name="email" placeholder="Correo electrónico">
-            <input type="password" name="password" placeholder="Contraseña">
-            <button type="submit">Iniciar sesión</button>
-        </form>
+    <div class="container">
+        <div class="left-section">
+            <div class="login-form">
+                <h2>Bienvenido a Tierra Viva</h2>
+                <form action="procesar_login.php" method="POST">
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+
+                <a href=/recuperarContraseña>¿Olvidaste tu contraseña?</a>
+                <p>¿Aún no tienes cuenta? <a href="/register">Regístrate</a></p>
+            </div>
+        </div>
+        <div class="right-section"></div>
     </div>
 </body>
 </html>
