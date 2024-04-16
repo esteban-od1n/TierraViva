@@ -3,7 +3,7 @@
     <div style="display: flex; align-items: center; justify-content: space-between;">
         <!-- Div del logo -->
         <div>
-            <img src="resources/img/logos/Logo.png" alt="Logo del portal" style="height: 100px;"> <!-- LOGO -->
+            <img src="" alt="Logo del portal" style="height: 100px;"> <!-- LOGO -->
         </div>
         
         <!-- Div del texto "Lorem ipsum  " -->
@@ -12,10 +12,10 @@
         </div>
     </div>
     
-    <!-- Div de las redes sociales -->
+    <!-- Div de las redes sociales
     <div style="display: flex; justify-content: center; margin-top: 20px;">
         <a href="#"><img src="/ruta/al/facebook.png" alt="Facebook" style="width: 30px; height: 30px; margin-right: 10px;"></a>
         <a href="#"><img src="/ruta/al/twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-right: 10px;"></a>
-        <a href="#"><img src="/ruta/al/instagram.png" alt="Instagram" style="width: 30px; height: 30px;"></a>
-    </div>
+        <a href="#"><img src="/ruta/al/instagram.png" alt="Instagram" style="width: 30px; height: 30px;"></a> 
+    </div>-->
 </footer>

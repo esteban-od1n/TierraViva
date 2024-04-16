@@ -7,13 +7,12 @@
               </div>
               <p class="label-2 section-subtitle slider-reveal">Agricultura Urbana</p>
               <h1 class="display-1 slide-title slider-reveal">
-                Lorem ipsum dolor sit amet.<br>
-                Lorem ipsum dolor sit amet.
+                Cultiva tus alimentos en casa
               </h1>
-              <p class="body-2 slider-text slider-reveal">Lorem ipsum dolor sit amet.</p>
+              <p class="body-2 slider-text slider-reveal">Conoce diferentes métodos.</p>
               <a href="#" class="btn btn-primary slider-reveal">
-                <span class="text text-1">View</span>
-                <span class="text text-2" aria-hidden="true">View</span>
+                <span class="text text-1">Leer</span>
+                <span class="text text-2" aria-hidden="true">Leer</span>
               </a>
             </li>
             <li class="slider-item active" data-slide-slider-item>
@@ -22,13 +21,12 @@
               </div>
               <p class="label-2 section-subtitle slider-reveal">Conoce como lograrlo</p>
               <h1 class="display-1 slide-title slider-reveal">
-                Lorem ipsum dolor sit amet.<br>
-                Lorem ipsum dolor sit amet.
+                Diversas herramientas para <br> iniciar en la agricultura
               </h1>
-              <p class="body-2 slider-text slider-reveal">Lorem ipsum dolor sit amet.</p>
+              <p class="body-2 slider-text slider-reveal">Informate más sobre los métodos.</p>
               <a href="#" class="btn btn-primary slider-reveal">
-                <span class="text text-1">View</span>
-                <span class="text text-2" aria-hidden="true">View</span>
+                <span class="text text-1">Leer</span>
+                <span class="text text-2" aria-hidden="true">Leer</span>
               </a>
             </li>
             <li class="slider-item active" data-slide-slider-item>
@@ -37,13 +35,12 @@
               </div>
               <p class="label-2 section-subtitle slider-reveal">Conoce nuestros Proveedores</p>
               <h1 class="display-1 sile-title slider-reveal">
-                Lorem ipsum dolor sit amet.<br>
-                Lorem ipsum dolor sit amet.
+                Encuentra a tus proveedores locales
               </h1>
-              <p class="body-2 slider-text slider-reveal">Lorem ipsum dolor sit amet.</p>
+              <p class="body-2 slider-text slider-reveal">tanto productos como herramientas.</p>
               <a href="#" class="btn btn-primary slider-reveal">
-                <span class="text text-1">View</span>
-                <span class="text text-2" aria-hidden="true">View</span>
+                <span class="text text-1">Leer</span>
+                <span class="text text-2" aria-hidden="true">Leer</span>
               </a>
             </li>
           </ul>

@@ -38,10 +38,10 @@
             </li>
         </ul>
         </nav>
-        <a href="#" class="btn btn-secondary">
+        <button class="btn popout">
             <span class="text text-1">Registrate</span>
             <span class="text text-2" aria-hidden="true">Registrate</span>
-        </a>
+        </button>
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
             <span class="line line-1"></span>
             <span class="line line-2"></span>

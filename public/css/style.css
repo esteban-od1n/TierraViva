@@ -293,8 +293,8 @@ body.nav-active{overflow: hidden;}
     letter-spacing: 16px;
     padding-inline-start: 16px;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-stroke: var(--crema);
     animation: loadingTxt 2s linear infinite;
 }
@@ -580,6 +580,26 @@ body.nav-active{overflow: hidden;}
 .slide .slider-item.active .slider-text{ animation-delay: 1.5s;}
 .slide .slider-item.active .btn{ animation-delay: 2s;}
 
+/*Login-Registro*/
+.container-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:15px;
+  max-width: 900px;
+  border: solid thin var(--verde--oscuro);
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+.information{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: var(--crema);
+ border-radius: 20px 0 0 20px;  
+}
+
 /*nuestros apartados*/
 .features .section-title{ 
   margin-block: 40px;
@@ -739,28 +759,6 @@ body.nav-active{overflow: hidden;}
   :is .container{max-width: 820px;}
 
   .navbar-list {margin-inline: 30px;}
-  /*.slide .slider-btn{
-    display: grid;
-    position: absolute;
-    z-index: 1;
-    color: var(--verde-pasto);
-    font-size: 2.4rem;
-    border: 1px solid var(--crema);
-    width: 45px;
-    height: 45px;
-    place-items: center;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-    transition: var(--transition-1);
-  }
-
-  .slide .slider-btn ion-icon {transform: rotate(-45deg);}
-  .slide .slider-btn.prev {left: 30px;}
-  .slide .slider-btn.next {right: 30px;}
-  .slide .slider-btn:is(:hover, :focus-visible){
-    background-color: var(--verde--oscuro);
-    color: var(--crema);
-  }*/
   
   .header{ top:0px;}
   .header.active{top: 0;}
