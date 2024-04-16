@@ -38,7 +38,7 @@
             </li>
         </ul>
         </nav>
-        <button class="btn popout">
+        <a href="#" class="btn btn-secondary">
             <span class="text text-1">Registrate</span>
             <span class="text text-2" aria-hidden="true">Registrate</span>
         </button>
