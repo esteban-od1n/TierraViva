@@ -5,7 +5,7 @@
     </a>
     <nav class="navbar" data-navbar>
         <button class="close-btn" aria-label="close menu" data-nav-toggler>
-            <!--<ion-icon name="close-outline" aria-hidden="true"></ion-icon>-->
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
         <a href="#" class="logo">
             <img src="img/logos/logo.svg" width="160" height="50" alt="Tierra Viva - Inicio">
