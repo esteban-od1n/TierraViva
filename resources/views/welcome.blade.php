@@ -67,7 +67,7 @@
             </div>
         </section>
         <section class="nosotros" id="nosotros">
-            <img src="img/Icon Grid.svg" alt="">
+            
         </section>
     </main>
 

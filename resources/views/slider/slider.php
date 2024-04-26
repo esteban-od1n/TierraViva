@@ -37,7 +37,7 @@
               <h1 class="display-1 sile-title slider-reveal">
                 Encuentra a tus proveedores locales
               </h1>
-              <p class="body-2 slider-text slider-reveal">tanto productos como herramientas.</p>
+              <p class="body-2 slider-text slider-reveal">Tanto productos como herramientas.</p>
               <a href="#" class="btn btn-primary slider-reveal">
                 <span class="text text-1">Leer</span>
                 <span class="text text-2" aria-hidden="true">Leer</span>
