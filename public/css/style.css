@@ -648,6 +648,14 @@ body.nav-active{overflow: hidden;}
   margin-bottom: 1rem; 
 }
 
+/*nosotros*/
+.nosotros{
+  background-image: url('public/img/IconGrid.svg');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+}
+
 /*Footer*/
 .footer{
   background-color: var(--verde--oscuro);
