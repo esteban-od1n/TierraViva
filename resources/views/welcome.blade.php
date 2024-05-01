@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--CSS file-->
+    <link rel="stylesheet" href="css/apartados.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Tierra Viva</title>
 </head>
