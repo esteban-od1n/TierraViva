@@ -87,18 +87,18 @@
                 </div>
             </div>
         </section>
-        <section class="apartados">
-            <div class="apartados_container grid">
-                <div class="apartado_content grid">
-                <article class="apartado_card">
+        <section class="apartados-feature">
+            <div class="apartados_container-feature grid">
+                <div class="apartado_content-feature grid">
+                <article class="apartado_card-feature">
                         <h2 class="apartado-title">Mapa Interactivo</h2>
                         <img src="img/inicio_img/mapa-feature.png" alt="mapa interactivo icono">
                     </article>
-                    <article class="apartado_card">
+                    <article class="apartado_card-feature">
                         <h2 class="apartado-title">Proveedores</h2>
                         <img src="img/inicio_img/provee-feature.png" alt="proveedores icono">
                     </article>
-                    <article class="apartado_card">
+                    <article class="apartado_card-feature">
                         <h2 class="apartado-title">Foro Comunitario</h2>
                         <img src="img/inicio_img/world-feature.png" alt="foro icono">
                     </article> 

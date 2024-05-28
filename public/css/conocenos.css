@@ -56,3 +56,38 @@
     height: auto;
     border-radius: var(--radius-24);
 }
+.apartados-feature{
+    text-align: center;
+    padding: var(--seccion-espacio);
+}
+.apartados_container-feature{
+    display: grid;
+    gap: 20px;
+}
+.apartado_content-feature{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-items: center;
+}
+.apartado_card-feature{
+    position: relative;
+    width: 100%; 
+    max-width: 350px; 
+    background: linear-gradient(var(--verde--oscuro),var(--verde-menta));
+    padding: 1rem;
+    color: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
+    margin: 0 auto; 
+}
+.apartado_card-feature:hover{transform: translateY(-15px);}
+.apartado_card-feature img {
+    display: block;
+    width: 60%; 
+    height: auto; 
+    margin: 0 auto;
+    margin-bottom: 1rem; 
+    margin-top: 1rem;
+}
