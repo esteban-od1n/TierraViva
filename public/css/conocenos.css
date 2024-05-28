@@ -1,0 +1,58 @@
+/*Conocenos apartado*/
+.sobre-nosotros{
+    background-image: url('/img/IconGrid.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sobre-nosotros h1{
+    background-color: #F9FCE9;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.conoce-cards,
+.conoce-cards *{
+    box-sizing: border-box;
+    
+}
+.conoce-cards{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+.card{
+    box-sizing: border-box;
+    background-color: #F9FCE9;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.imagen-card{
+    flex: 1;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.info-card{
+    flex: 2;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.conoce-cards img{
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-24);
+}
