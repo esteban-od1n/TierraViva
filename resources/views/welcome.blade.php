@@ -48,23 +48,23 @@
                 </div>
                 <div class="apartado_content grid">
                     <article class="apartado_card">
-                        <img src="img/semillas.png" alt="semillas">
+                        <img src="img/inicio_img/semillas.png" alt="semillas">
                         <h2 class="apartado-title">Tipos de plantas</h2>
                     </article>
                     <article class="apartado_card">
-                        <img src="img/herramientas.png" alt="herramientas">
+                        <img src="img/inicio_img/herramientas.png" alt="herramientas">
                         <h2 class="apartado-title">Herramientas</h2>
                     </article>
                     <article class="apartado_card">
-                        <img src="img/cuidados.png" alt="cuidados">
+                        <img src="img/inicio_img/cuidados.png" alt="cuidados">
                         <h2 class="apartado-title">Cuidados</h2>
                     </article>
                     <article class="apartado_card">
-                        <img src="img/ameanzas.png" alt="amenazas">
+                        <img src="img/inicio_img/ameanzas.png" alt="amenazas">
                         <h2 class="apartado-title">Amenazas</h2>
                     </article>
                     <article class="apartado_card">
-                        <img src="img/llave.png" alt="llave">
+                        <img src="img/inicio_img/llave.png" alt="llave">
                         <h2 class="apartado-title">Reutiliza</h2>
                     </article>
                 </div>
@@ -74,7 +74,7 @@
             <h1 class="section-subtitle">sobre nosotros</h1>
             <div class="conoce-cards">
                 <div class="card imagen-card">
-                   <img src="/img/smrithi-rao_Sobrenosotros.jpg" alt=""> 
+                   <img src="img/inicio_img/smrithi-rao_Sobrenosotros.jpg" alt=""> 
                 </div>
                 <div class="card info-card">
                     <p>¡Te damos la bienvenida a Tierra Viva! <br>
@@ -92,15 +92,15 @@
                 <div class="apartado_content grid">
                 <article class="apartado_card">
                         <h2 class="apartado-title">Mapa Interactivo</h2>
-                        <img src="img/mapa-feature.png" alt="mapa interactivo icono">
+                        <img src="img/inicio_img/mapa-feature.png" alt="mapa interactivo icono">
                     </article>
                     <article class="apartado_card">
                         <h2 class="apartado-title">Proveedores</h2>
-                        <img src="img/provee-feature.png" alt="proveedores icono">
+                        <img src="img/inicio_img/provee-feature.png" alt="proveedores icono">
                     </article>
                     <article class="apartado_card">
                         <h2 class="apartado-title">Foro Comunitario</h2>
-                        <img src="img/world-feature.png" alt="foro icono">
+                        <img src="img/inicio_img/world-feature.png" alt="foro icono">
                     </article> 
                 </div>     
             </div>
