@@ -305,34 +305,6 @@ body.nav-active{overflow: hidden;}
     100% {background-position: 0%;}
 }
 
-/*Login-Registro*/
-.container-form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin:15px;
-  max-width: 900px;
-  border: solid thin var(--verde--oscuro);
-  border-radius: 20px;
-  transition: all 1s ease;
-}
-.information{
-  width: 40%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: var(--crema);
- border-radius: 20px 0 0 20px;  
-}
-
-/*nosotros*/
-.nosotros{
-  background-image: url('public/img/IconGrid.svg');
-  background-repeat: no-repeat;
-  height: 100%;
-  width: auto;
-}
-
 /*botón de arriba*/
 .back-top-btn{
   position: fixed;
@@ -524,7 +496,7 @@ body.nav-active{overflow: hidden;}
     z-index: 1;
     color: var(--verde-pasto);
     font-size: 2.4rem;
-    border: 1px solid var(--crema);
+    border: 2px solid var(--verde-pasto);
     width: 45px;
     height: 45px;
     place-items: center;
@@ -539,7 +511,6 @@ body.nav-active{overflow: hidden;}
   .slide .slider-btn:is(:hover, :focus-visible){
     background-color: var(--verde--oscuro);
     color: var(--crema);
-
+  }
   .features .grid-list { grid-template-columns: repeat(4, 1fr); }
   }
-}
